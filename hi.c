@@ -8,6 +8,6 @@ int main(void)
 
     int z = c1 + c2 + c3;
 
-    printf("%i %i %i | %i \n", c1, c2, c3, z );
+    printf("%i %i %c | %i \n", c1, c2, c3, z );
 
 }
