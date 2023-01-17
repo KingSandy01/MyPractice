@@ -38,8 +38,8 @@ int main(){
             cin>>a;
             cout<<"\nInput Second Value: ";
             cin>>b;
-            c=a/b;
-            cout<<"\nDivision of First by Second value is: "<<c;
+            c=(float)a/(float)b;
+            cout<<"\nDivision of First by Second value is: "<<(float)c;
             break;
         case 5:
             cout<<"You Choose to Exit...";
